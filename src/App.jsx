@@ -6,6 +6,7 @@ import AboutUs from "./components/about/AboutUs";
 import Feature from "./components/features/Feature";
 import Services from "./components/services/Services";
 import Sections from "./components/AstroSection/Sections";
+import Records from "./components/record/Records";
 
 const App = () => {
   return (
@@ -14,7 +15,8 @@ const App = () => {
       <AboutUs />
       <Feature />
       <Services />
-      <Sections/>
+      <Sections />
+      <Records />
     </div>
   );
 };

@@ -528,7 +528,7 @@ button:focus {
   background-repeat: no-repeat;
 }
 .ast_slider_wrapper.style_2 {
-  background-image: url('../images/content/slider2.jpg');
+  background-image: url("../images/content/slider2.jpg");
 }
 .ast_slider_wrapper .ast_img_overlay {
   z-index: -1;
@@ -1374,7 +1374,7 @@ button:focus {
   background-size: cover;
   background-attachment: fixed;
   position: relative;
-  background-image: url(../images/background/astrogini_timer_bg.jpg);
+  background-image: url("./assets/images/background/astrogini_timer_bg.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   z-index: 1;
