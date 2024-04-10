@@ -1868,7 +1868,7 @@ button:focus {
   background-size: cover;
   background-attachment: fixed;
   position: relative;
-  background-image: url(../images/background/astrogini_overview_bg.jpg);
+  background-image: url("./assets/images/background/astrogini_overview_bg.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   z-index: 0;
@@ -1902,6 +1902,7 @@ button:focus {
   text-align: center;
   margin-top: 0;
 }
+
 /*--- overview style2 css end ---*/
 /*---------- Overview css end -------*/
 /*---------- Testimonial css start -------*/
@@ -1936,7 +1937,7 @@ button:focus {
   float: left;
   width: calc(100% - 100px);
   padding-left: 45px;
-  background-image: url(../images/content/testimonial.png);
+  background-image: url("./assets/images/content/testimonial.png");
   background-size: 64px;
   background-repeat: no-repeat;
   background-position: 10px -10px;
@@ -2082,7 +2083,7 @@ button:focus {
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
-.widget.text-widget {
+.widget .text-widget {
   float: left;
   width: 100%;
   margin-bottom: 40px;
@@ -2159,18 +2160,19 @@ button:focus {
   border: 1px solid #ffffff;
   border-radius: 0px 22px 22px 0px;
   padding: 0px;
-  background-color: transparent;
+  background-color: #222222;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
+  align-items: center;
 }
 .ast_newsletter_box button:hover,
 .ast_newsletter_box button:focus {
   background-color: #fecc03;
   color: #ffffff;
-  border: 1px solid #fecc03;
+
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
@@ -2204,6 +2206,7 @@ button:focus {
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
+  text-decoration: none;
 }
 .ast_servicelink ul li:first-child a {
   padding-top: 0px;
@@ -2247,6 +2250,7 @@ button:focus {
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
+  text-decoration: none;
 }
 .ast_sociallink ul li:first-child a {
   padding-top: 0px;
@@ -2304,6 +2308,7 @@ button:focus {
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
+  text-decoration: none;
 }
 .ast_gettouch ul li a:hover {
   color: #fecc03;
@@ -2318,7 +2323,8 @@ button:focus {
   width: 100%;
   text-align: center;
   border-top: 1px dotted #ffffff;
-  padding-top: 20px;
+  padding-top: 10px;
+  margin-top: 30px;
 }
 .ast_copyright_wrapper p {
   float: left;
@@ -2342,7 +2348,7 @@ button:focus {
   background-size: cover;
   color: #ffffff;
   padding: 200px 0px 100px 0px;
-  background-image: url(../images/breadcrumb/astrogini_about_bg.jpg);
+  background-image: url("./assets/images/breadcrumb/astrogini_about_bg.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   text-align: center;

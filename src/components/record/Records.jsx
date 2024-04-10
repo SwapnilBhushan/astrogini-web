@@ -5,19 +5,19 @@ import timer3 from "../../assets/images/content/astrogini_timer_3.png";
 import timer4 from "../../assets/images/content/astrogini_timer_4.png";
 
 const timerData = [
-  { image: timer1, from: 0, to: 10, speed: 5000, label: "Offices Worldwide" },
+  { image: timer1, from: 0, to: 100, speed: 5000, label: "Offices Worldwide" },
   {
     image: timer2,
     from: 0,
     to: 5000,
-    speed: 5000,
+    speed: 500,
     label: "Skilled Astrologers",
   },
-  { image: timer3, from: 0, to: 60, speed: 5000, label: "Countries Covered" },
+  { image: timer3, from: 0, to: 600, speed: 5000, label: "Countries Covered" },
   {
     image: timer4,
     from: 0,
-    to: 15,
+    to: 200,
     speed: 5000,
     label: "Years of Experiences",
   },
@@ -30,7 +30,7 @@ const Records = () => {
     const timers = timerData.map((data, index) => {
       const { from, to, speed } = data;
       let current = from;
-      const increment = to > from ? 1 : -1;
+      const increment = to > from ? 100 : -100;
       const duration = Math.abs(speed / (to - from));
       return setInterval(() => {
         current += increment;
@@ -45,7 +45,7 @@ const Records = () => {
     return () => {
       timers.forEach((timer) => clearInterval(timer));
     };
-  }, []);
+  }, [timerData]);
 
   return (
     <div className="ast_timer_wrapper ast_toppadder40 ast_bottompadder20">
