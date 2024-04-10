@@ -1,0 +1,290 @@
+/* NV Stylesheet */
+
+:root {
+  --primary-color: #fecc03;
+  --secondary-color: #f4aa36;
+  --dark-color1: #031d2e;
+  --dark-color2: #17384e;
+  --white-color: #ffffff;
+  --transition: 0.4s ease-in-out;
+}
+
+:after,
+:before {
+  transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+/* ------------------------------------------------------ */
+
+/*--------------- NV About CSS Start ---------------*/
+
+.nv_contact_expert {
+  display: flex;
+  background-color: #3a3a3a;
+  border-radius: 50px 6px 50px 6px;
+  padding: 25px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  align-items: center;
+  max-width: 470px;
+}
+
+.nv_contact_expert .nv_icon {
+  width: 65px;
+  height: 65px;
+  background-color: #fecc03;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 25px;
+  position: relative;
+}
+
+.nv_contact_expert .nv_icon:before {
+  position: absolute;
+  left: -7px;
+  top: -7px;
+  bottom: -7px;
+  right: -7px;
+  border: 2px dashed #fecc03;
+  content: "";
+  border-radius: 100%;
+}
+
+.nv_contact_expert:hover .nv_icon:before {
+  animation: spin 9s infinite linear;
+  -webkit-animation: spin 9s infinite linear;
+  -moz-animation: spin 9s infinite linear;
+}
+
+.nv_contact_expert h5 {
+  font-size: 18px;
+  margin: 0 0 7px 0;
+}
+
+.nv_contact_expert h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #000000;
+  margin: 0 0 0 0;
+}
+
+.nv_contact_expert:hover h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 0 0;
+}
+
+.nv_white {
+  color: #ffffff;
+}
+
+.nv_orange {
+  color: #f4aa36;
+}
+
+/*--------------- NV About CSS End ---------------*/
+/*--------------- NV Why We CSS Start ---------------*/
+
+.nv_whywe_wrapper {
+  float: left;
+  width: 100%;
+  background-color: #f4f4f4;
+}
+
+.nv_whywe_info {
+  float: left;
+  width: 100%;
+}
+
+.nv_whywe_info_box {
+  float: left;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 30px;
+  background-color: #fecc03;
+  padding: 10px 10px 10px 10px;
+  border-radius: 12px;
+}
+
+.nv_whywe_info_box span {
+  float: left;
+  width: 120px;
+  height: 120px;
+  line-height: 90px;
+  border-radius: 100%;
+  background-color: #fecc03;
+  text-align: center;
+  border: 10px solid #ffffff;
+  -webkit-box-shadow: -1px 0px 1px 0px #e1e1e1;
+  -moz-box-shadow: -1px 0px 1px 0px #e1e1e1;
+  -o-box-shadow: -1px 0px 1px 0px #e1e1e1;
+  -ms-box-shadow: -1px 0px 1px 0px #e1e1e1;
+  box-shadow: -1px 0px 1px 0px #e1e1e1;
+}
+
+.nv_whywe_info_box span img {
+  display: inline-block;
+  width: 48px;
+}
+
+.nv_whywe_info_box_info {
+  position: absolute;
+  top: 30px;
+  left: 60px;
+  right: 10px;
+  height: 80px;
+  background-color: #ffffff;
+  margin-bottom: 0px;
+  border-radius: 12px;
+  z-index: -1;
+  padding-top: 30px;
+  padding-right: 10px;
+  padding-left: 85px;
+  -webkit-box-shadow: 0px 0px 1px 0px #e1e1e1;
+  -moz-box-shadow: 0px 0px 1px 0px #e1e1e1;
+  -o-box-shadow: 0px 0px 1px 0px #e1e1e1;
+  -ms-box-shadow: 0px 0px 1px 0px #e1e1e1;
+  box-shadow: 0px 0px 1px 0px #e1e1e1;
+}
+
+.nv_whywe_info_box_info p {
+  float: left;
+  width: 100%;
+  margin-bottom: 0px;
+  font-size: 16px;
+  color: #333333;
+}
+
+.nv_whywe_info_box_pic .nv_icon:after {
+  border: 2px dashed #ffa000;
+  content: "";
+  position: absolute;
+  left: 15px;
+  right: 198px;
+  top: 15px;
+  bottom: 15px;
+  border-radius: 100%;
+}
+
+.nv_whywe_info_box:hover .nv_icon {
+  background-color: #ffa000;
+}
+
+.nv_whywe_info_box:hover .nv_icon:after {
+  border-color: #ffa000;
+  animation: spin 9s infinite linear;
+  -webkit-animation: spin 9s infinite linear;
+  -moz-animation: spin 9s infinite linear;
+}
+
+/*--------------- NV Why We CSS End ---------------*/
+
+/*================ Version-2 CSS Start ==================*/
+
+/*--------------- NV Service CSS Start ---------------*/
+
+.nv_service_box {
+  background-color: #07273c;
+  padding: 50px 22px;
+  margin-top: 30px;
+}
+
+.nv_service_box .nv_icon {
+  width: 80px;
+  background-color: #ffa000;
+  height: 80px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  position: relative;
+  transition: all 0.3s linear;
+}
+
+.nv_service_box .nv_icon:after {
+  border: 2px dashed #ffffff;
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: -10px;
+  bottom: -10px;
+  right: -10px;
+  border-radius: 100%;
+}
+
+.nv_service_box:hover .nv_icon {
+  background-color: #ffa000;
+}
+
+.nv_service_box:hover .nv_icon:after {
+  border-color: #ffa000;
+  animation: spin 9s infinite linear;
+  -webkit-animation: spin 9s infinite linear;
+  -moz-animation: spin 9s infinite linear;
+}
+
+/*--------------- NV Service CSS End ---------------*/
+/*================ Version-2 CSS End ==================*/
+
+/*================Responsive Style==================*/
+
+@media (max-width: 567px) {
+  .nv_contact_expert {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    max-width: 450px;
+  }
+
+  .nv_contact_expert h1 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 0 0 0;
+  }
+}
+
+@media (max-width: 450px) {
+  .nv_contact_expert {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    max-width: 450px;
+  }
+
+  .nv_contact_expert h1 {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0 0 0 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .nv_contact_expert {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    max-width: 400px;
+  }
+
+  .nv_contact_expert h1 {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0 0 0 0;
+  }
+}
