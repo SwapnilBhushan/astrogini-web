@@ -225,8 +225,6 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <BottomHeader />
-      <Slider />
     </>
   );
 };

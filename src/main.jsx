@@ -10,9 +10,12 @@ import "./css/magnific-popup.css";
 import "./css/nv.css";
 import "./css/owl.carousel.css";
 import "./css/owl.theme.default.css";
+import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>
 );

@@ -13,7 +13,7 @@ const Services = () => {
         <div className="row">
           <div className="col-lg-12 col-md-12 col-sm-12 col-12">
             <div className="ast_heading">
-              <h1>
+              <h1 style={{ fontWeight: "bold" }}>
                 Our <span>Services</span>
               </h1>
               <p>
@@ -29,7 +29,7 @@ const Services = () => {
           <div className="col-lg-4 col-md-6 col-sm-12 col-12">
             <div className="ast_service_box">
               <img src={Sv5} alt="Service" />
-              <h4>Birth Journal</h4>
+              <h4 style={{ fontWeight: "bold" }}>Birth Journal</h4>
               <p>
                 On the other hand, we denounce with righteous indignation and
                 dislike men.
@@ -43,7 +43,7 @@ const Services = () => {
           <div className="col-lg-4 col-md-6 col-sm-12 col-12">
             <div className="ast_service_box">
               <img src={Sv6} alt="Service" />
-              <h4>Kundli Matching</h4>
+              <h4 style={{ fontWeight: "bold" }}>Kundli Matching</h4>
               <p>
                 On the other hand, we denounce with righteous indignation and
                 dislike men.
@@ -57,7 +57,7 @@ const Services = () => {
           <div className="col-lg-4 col-md-6 col-sm-12 col-12">
             <div className="ast_service_box">
               <img src={Sv4} alt="Service" />
-              <h4>Kundli Dosh</h4>
+              <h4 style={{ fontWeight: "bold" }}>Kundli Dosh</h4>
               <p>
                 On the other hand, we denounce with righteous indignation and
                 dislike men.
@@ -71,7 +71,7 @@ const Services = () => {
           <div className="col-lg-4 col-md-6 col-sm-12 col-12">
             <div className="ast_service_box">
               <img src={Sv1} alt="Service" />
-              <h4>Kundli Yoga</h4>
+              <h4 style={{ fontWeight: "bold" }}>Kundli Yoga</h4>
               <p>
                 On the other hand, we denounce with righteous indignation and
                 dislike men.
@@ -85,7 +85,7 @@ const Services = () => {
           <div className="col-lg-4 col-md-6 col-sm-12 col-12">
             <div className="ast_service_box">
               <img src={Sv2} alt="Service" />
-              <h4>Palm Reading</h4>
+              <h4 style={{ fontWeight: "bold" }}>Palm Reading</h4>
               <p>
                 On the other hand, we denounce with righteous indignation and
                 dislike men.
@@ -99,7 +99,7 @@ const Services = () => {
           <div className="col-lg-4 col-md-6 col-sm-12 col-12">
             <div className="ast_service_box">
               <img src={Sv3} alt="Service" />
-              <h4>Face Reading</h4>
+              <h4 style={{ fontWeight: "bold" }}>Face Reading</h4>
               <p>
                 On the other hand, we denounce with righteous indignation and
                 dislike men.

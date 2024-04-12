@@ -23,10 +23,10 @@ const Sections = () => {
         <div className="row">
           <div className="col-lg-12 col-md-12 col-sm-12 col-12">
             <div className="ast_heading">
-              <h1>
+              <h1 style={{ fontWeight: "bold" }}>
                 Daily <span>Routines</span>
               </h1>
-              <p>
+              <p style={{ color: "#000" }}>
                 In our normal daily life, we all have some or other type of
                 problems which we have to face and resolve them with the help of
                 our family, friends or any expert person. Astrology can provide
@@ -35,12 +35,13 @@ const Sections = () => {
               </p>
             </div>
           </div>
+
           <div className="col-lg-4 col-md-6 col-sm-12 col-12">
             <div className="row">
               <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                 <div className="ast_vedic_astrology">
                   <center>
-                    <h3>Vedic Astrology</h3>
+                    <h3 style={{ fontWeight: "bold" }}>Vedic Astrology</h3>
                   </center>
                   <ul>
                     <li>
@@ -48,7 +49,7 @@ const Sections = () => {
                         <img src={vas1} alt="Sign" />
                         <div className="ast_vedic_astro_info">
                           <h5>Sun Sign</h5>
-                          <p>
+                          <p style={{ color: "#000" }}>
                             On the other hand, we denounce with righteous
                             indignation and dislike men.
                           </p>
@@ -60,7 +61,7 @@ const Sections = () => {
                         <img src={vas2} alt="Sign" />
                         <div className="ast_vedic_astro_info">
                           <h5>Moon Sign</h5>
-                          <p>
+                          <p style={{ color: "#000" }}>
                             On the other hand, we denounce with righteous
                             indignation and dislike men.
                           </p>
@@ -72,7 +73,7 @@ const Sections = () => {
                         <img src={vas3} alt="Sign" />
                         <div className="ast_vedic_astro_info">
                           <h5>Planets</h5>
-                          <p>
+                          <p style={{ color: "#000" }}>
                             On the other hand, we denounce with righteous
                             indignation and dislike men.
                           </p>
@@ -84,7 +85,7 @@ const Sections = () => {
                         <img src={vas4} alt="Sign" />
                         <div className="ast_vedic_astro_info">
                           <h5>Ascendant</h5>
-                          <p>
+                          <p style={{ color: "#000" }}>
                             On the other hand, we denounce with righteous
                             indignation and dislike men.
                           </p>
@@ -96,7 +97,7 @@ const Sections = () => {
                         <img src={vas5} alt="Sign" />
                         <div className="ast_vedic_astro_info">
                           <h5>Twelve Houses</h5>
-                          <p>
+                          <p style={{ color: "#000" }}>
                             On the other hand, we denounce with righteous
                             indignation and dislike men.
                           </p>
@@ -108,7 +109,7 @@ const Sections = () => {
                         <img src={vas6} alt="Sign" />
                         <div className="ast_vedic_astro_info">
                           <h5>Nakshatras</h5>
-                          <p>
+                          <p style={{ color: "#000" }}>
                             On the other hand, we denounce with righteous
                             indignation and dislike men.
                           </p>
@@ -121,7 +122,9 @@ const Sections = () => {
               <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                 <div className="ast_vedic_astrology">
                   <center>
-                    <h3>Baby Names By Nakshatra</h3>
+                    <h3 style={{ fontWeight: "bold" }}>
+                      Baby Names By Nakshatra
+                    </h3>
                   </center>
                   <div className="ast_vedic_astro_box">
                     <img src={babyName} alt="Astrogini Baby Naming" />
@@ -147,7 +150,7 @@ const Sections = () => {
               <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                 <div className="ast_vedic_astrology">
                   <center>
-                    <h3>Astrology Advice</h3>
+                    <h3 style={{ fontWeight: "bold" }}>Astrology Advice</h3>
                   </center>
                   <ul>
                     <li>
@@ -155,7 +158,7 @@ const Sections = () => {
                         <img src={vad1} alt="Sign" />
                         <div className="ast_vedic_astro_info">
                           <h5>Career</h5>
-                          <p>
+                          <p style={{ color: "#000" }}>
                             Many desktop publishing packages and web page
                             editors now use Lorem Ipsum as their default model
                             text.
@@ -168,7 +171,7 @@ const Sections = () => {
                         <img src={vad2} alt="Sign" />
                         <div className="ast_vedic_astro_info">
                           <h5>Relationship</h5>
-                          <p>
+                          <p style={{ color: "#000" }}>
                             Many desktop publishing packages and web page
                             editors now use Lorem Ipsum as their default model
                             text.
@@ -181,7 +184,7 @@ const Sections = () => {
                         <img src={vad3} alt="Sign" />
                         <div className="ast_vedic_astro_info">
                           <h5>Finance</h5>
-                          <p>
+                          <p style={{ color: "#000" }}>
                             Many desktop publishing packages and web page
                             editors now use Lorem Ipsum as their default model
                             text.
@@ -194,7 +197,7 @@ const Sections = () => {
                         <img src={vad4} alt="Sign" />
                         <div className="ast_vedic_astro_info">
                           <h5>Business</h5>
-                          <p>
+                          <p style={{ color: "#000" }}>
                             Many desktop publishing packages and web page
                             editors now use Lorem Ipsum as their default model
                             text.
@@ -207,7 +210,7 @@ const Sections = () => {
                         <img src={vad5} alt="Sign" />
                         <div className="ast_vedic_astro_info">
                           <h5>Education</h5>
-                          <p>
+                          <p style={{ color: "#000" }}>
                             Many desktop publishing packages and web page
                             editors now use Lorem Ipsum as their default model
                             text.
@@ -220,7 +223,7 @@ const Sections = () => {
                         <img src={vad6} alt="Sign" />
                         <div className="ast_vedic_astro_info">
                           <h5>Health</h5>
-                          <p>
+                          <p style={{ color: "#000" }}>
                             Many desktop publishing packages and web page
                             editors now use Lorem Ipsum as their default model
                             text.
@@ -233,7 +236,7 @@ const Sections = () => {
                         <img src={vad7} alt="Sign" />
                         <div className="ast_vedic_astro_info">
                           <h5>Ask A Question</h5>
-                          <p>
+                          <p style={{ color: "#000" }}>
                             Many desktop publishing packages and web page
                             editors now use Lorem Ipsum as their default model
                             text.
@@ -246,7 +249,7 @@ const Sections = () => {
                         <img src={vad8} alt="Sign" />
                         <div className="ast_vedic_astro_info">
                           <h5>Love Remedies</h5>
-                          <p>
+                          <p style={{ color: "#000" }}>
                             Many desktop publishing packages and web page
                             editors now use Lorem Ipsum as their default model
                             text.
@@ -265,7 +268,7 @@ const Sections = () => {
               <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                 <div className="ast_vedic_astrology">
                   <center>
-                    <h3>Vastu Shastra</h3>
+                    <h3 style={{ fontWeight: "bold" }}>Vastu Shastra</h3>
                   </center>
                   <div className="ast_vedic_astro_box">
                     <img src={vastu1} alt="Astrogini Vastu" />
@@ -288,7 +291,9 @@ const Sections = () => {
               <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                 <div className="ast_vedic_astrology">
                   <center>
-                    <h3>Birth Journal (Kundli)</h3>
+                    <h3 style={{ fontWeight: "bold" }}>
+                      Birth Journal (Kundli)
+                    </h3>
                   </center>
                   <div className="ast_vedic_astro_box">
                     <img src={kundli} alt="Astrogini Kundli" />

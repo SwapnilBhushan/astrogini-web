@@ -9,11 +9,11 @@ const Platform = () => {
           <div className="col-lg-12 col-md-12 col-sm-12 col-12">
             <div className="ast_heading">
               {/* <!--	<h1>Download Our <span>Mobile App</span></h1> --> */}
-              <h1>
+              <h1 style={{ fontWeight: "bold" }}>
                 Download Our Mobile App & Get 1st Consultation <span>FREE</span>
               </h1>
               <div>&nbsp;</div>
-              <h4>
+              <h4 style={{ fontWeight: "bold" }}>
                 Free Kundli, Daily Horoscope, Panchang, Astrology Signs & Many
                 More...
               </h4>

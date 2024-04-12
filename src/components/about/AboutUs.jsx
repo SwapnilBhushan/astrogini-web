@@ -10,7 +10,7 @@ const AboutUs = () => {
           <div className="col-lg-12 col-md-12 col-sm-12 col-12">
             <div className="ast_heading">
               <div>&nbsp;</div>
-              <h1>
+              <h1 style={{ fontWeight: "bold" }}>
                 About <span>Astrology</span>
               </h1>
               <p style={{ textAlign: "center" }}>
@@ -44,7 +44,11 @@ const AboutUs = () => {
                 and stars to see how they reveal a certain course of events on
                 earth.
               </p>
-              <a href="about.html" className="nv-sm_btn">
+              <a
+                href="about.html"
+                className="nv-sm_btn"
+                style={{ textDecoration: "none" }}
+              >
                 Know More
               </a>
 
@@ -59,7 +63,11 @@ const AboutUs = () => {
                   />
                 </span>
                 <div>
-                  <a href="service_single.html" className="nv_btn">
+                  <a
+                    href="service_single.html"
+                    className="nv_btn"
+                    style={{ textDecoration: "none" }}
+                  >
                     <h1>Consult Astrologers</h1>
                   </a>
                 </div>

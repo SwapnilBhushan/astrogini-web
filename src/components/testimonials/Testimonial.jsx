@@ -13,7 +13,7 @@ const Testimonial = () => {
         <div className="row">
           <div className="col-lg-12 col-md-12 col-sm-12 col-12">
             <div className="ast_heading">
-              <h1>
+              <h1 style={{ fontWeight: "bold" }}>
                 What User<span> Says</span>
               </h1>
               <p>
@@ -38,7 +38,7 @@ const Testimonial = () => {
                           prices were low in comparison to other sites, but
                           their services are great. Not disappointed at all.
                         </p>
-                        <h4>
+                        <h4 style={{ fontWeight: "bold" }}>
                           Kavya Singh, <span>Varanasi, India</span>
                         </h4>
                       </div>
@@ -56,7 +56,7 @@ const Testimonial = () => {
                           and even not giving a satisfactory results after
                           paying for the services.
                         </p>
-                        <h4>
+                        <h4 style={{ fontWeight: "bold" }}>
                           Shreya Singh, <span>Hardoi, India</span>
                         </h4>
                       </div>
@@ -74,7 +74,7 @@ const Testimonial = () => {
                           prices were low in comparison to other sites, but
                           their services are great. Not disappointed at all.
                         </p>
-                        <h4>
+                        <h4 style={{ fontWeight: "bold" }}>
                           Kavya Singh, <span>Varanasi, India</span>
                         </h4>
                       </div>
@@ -92,7 +92,7 @@ const Testimonial = () => {
                           and every time after their suggestions and remedies, I
                           got positive results.
                         </p>
-                        <h4>
+                        <h4 style={{ fontWeight: "bold" }}>
                           Rehan, <span>Delhi, India</span>
                         </h4>
                       </div>
@@ -110,7 +110,7 @@ const Testimonial = () => {
                           suggestions, which always tend to go right. Others
                           must give a try.
                         </p>
-                        <h4>
+                        <h4 style={{ fontWeight: "bold" }}>
                           Raj Neer, <span>Mumbai, India</span>
                         </h4>
                       </div>

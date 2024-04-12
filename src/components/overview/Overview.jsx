@@ -8,7 +8,7 @@ const Overview = () => {
         <div className="row">
           <div className="col-lg-12 col-md-12 col-sm-12 col-12">
             <div className="ast_heading">
-              <h1>
+              <h1 style={{ fontWeight: "bold" }}>
                 <span style={{ color: "#ffffff" }}>Daily Planetary</span>
                 <span> Overview</span>
               </h1>

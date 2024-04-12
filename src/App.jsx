@@ -13,21 +13,18 @@ import Testimonial from "./components/testimonials/Testimonial";
 import WhyAstrogini from "./components/why/WhyAstrogini";
 import Platform from "./components/platform/Platform";
 import Footer from "./components/footer/Footer";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Main from "./components/Main/Main";
+import Contact from "./components/contact/Contact";
 
 const App = () => {
   return (
     <div className="body">
       <Header />
-      <AboutUs />
-      <Feature />
-      <Services />
-      <Sections />
-      <Records />
-      <TeamMembers />
-      <Overview />
-      <Testimonial />
-      <WhyAstrogini />
-      <Platform />
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
       <Footer />
     </div>
   );

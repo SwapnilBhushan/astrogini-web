@@ -115,7 +115,7 @@ const Footer = () => {
                     <a href="error.html">404 error</a>
                   </li>
                   <li>
-                    <a href="contact.html">Contact</a>
+                    <a href="contact">Contact</a>
                   </li>
                 </ul>
               </div>
@@ -164,7 +164,9 @@ const Footer = () => {
                 <small>
                   <a href="https://www.astrogini.com/">
                     <strong>
-                      <span style={{ color: "#fecc03" }}>
+                      <span
+                        style={{ color: "#fecc03", textDecoration: "none" }}
+                      >
                         Astrogini Services Pvt. Ltd.
                       </span>
                     </strong>

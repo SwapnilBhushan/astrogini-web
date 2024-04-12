@@ -842,6 +842,7 @@ button:focus {
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
+  text-decoration: none;
 }
 .ast_btn:hover,
 .ast_btn:focus {
@@ -944,6 +945,7 @@ button:focus {
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
+  text-decoration: none;
 }
 .nv-lg_btn:hover,
 .nv-lg_btn:focus {
@@ -1336,6 +1338,7 @@ button:focus {
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
+  font-weight: bold;
 }
 .ast_vedic_astrology ul li a .ast_vedic_astro_info p {
   float: left;
@@ -2098,6 +2101,7 @@ button:focus {
   text-transform: capitalize;
   position: relative;
   padding-bottom: 15px;
+  font-weight: bold;
 }
 .ast_newsletter {
   float: left;
@@ -2332,10 +2336,12 @@ button:focus {
   margin-bottom: 0px;
   text-transform: capitalize;
   color: #ffffff;
+  text-decoration: none;
 }
 .ast_copyright_wrapper p a {
   font-weight: 700;
   color: #fecc03;
+  text-decoration: none;
 }
 /*---------- Footer Wrapper css end -------*/
 /*----Breadcrumb Start-----------*/
@@ -3060,7 +3066,7 @@ button:focus {
   -ms-box-shadow: 0px 0px 30px -10px #000000;
   box-shadow: 0px 0px 30px -10px #000000;
 }
-.ast_contact_info:hover span i {
+.ast_contact_info:hover span .fa-icon {
   color: #ffffff;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -3068,6 +3074,17 @@ button:focus {
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
+/* icon */
+.fa-icon {
+  font-size: 30px;
+  color: #fecc03;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+/* icon */
 .ast_contact_info h4 {
   float: left;
   width: 100%;
@@ -3079,6 +3096,10 @@ button:focus {
   float: left;
   width: 100%;
 }
+.ast_contact_info p a {
+  text-decoration: none;
+  color: #000;
+}
 .ast_contact_info p a:hover {
   color: #fecc03;
   -webkit-transition: all 0.5s;
@@ -3086,7 +3107,9 @@ button:focus {
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
+  text-decoration: none;
 }
+
 .ast_mapnform_wrapper {
   float: left;
   width: 100%;

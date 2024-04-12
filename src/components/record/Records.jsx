@@ -54,7 +54,7 @@ const Records = () => {
         <div className="row">
           <div className="col-lg-12 col-md-12 col-sm-12 col-12">
             <div className="ast_heading">
-              <h1>
+              <h1 style={{ fontWeight: "bold" }}>
                 Now <span>We Have</span>
               </h1>
               <p></p>
@@ -68,6 +68,7 @@ const Records = () => {
                     <img src={data.image} alt="timer" />
                   </span>
                   <h2
+                    style={{ fontWeight: "bold" }}
                     className="timer"
                     data-from={data.from}
                     data-to={data.to}
@@ -75,7 +76,7 @@ const Records = () => {
                   >
                     {counters[index]}
                   </h2>
-                  <h4>{data.label}</h4>
+                  <h4 style={{ fontWeight: "bold" }}>{data.label}</h4>
                 </div>
               </div>
             ))}

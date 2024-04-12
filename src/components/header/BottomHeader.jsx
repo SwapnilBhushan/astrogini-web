@@ -19,87 +19,189 @@ const BottomHeader = () => {
               <div className="ast_menu">
                 <ul>
                   <li>
-                    <a href="index.html">HOME</a>
+                    <a href="index.html" style={{ textDecoration: "none" }}>
+                      HOME
+                    </a>
                   </li>
                   <li className="as_submenu_li">
-                    <a className="dropdown-toggle" href="#">
+                    <a
+                      className="dropdown-toggle"
+                      href="#"
+                      style={{ textDecoration: "none" }}
+                    >
                       CONSULT ASTROLOGERS
                     </a>
                     <ul className="submenu dropdown">
                       <li>
-                        <a href="index.html">CHAT WITH ASTROLOGER</a>
+                        <a href="index.html" style={{ textDecoration: "none" }}>
+                          CHAT WITH ASTROLOGER
+                        </a>
                       </li>
                       <li>
-                        <a href="index-horoscope.html">TALK TO ASTROLOGER</a>
+                        <a
+                          href="index-horoscope.html"
+                          style={{ textDecoration: "none" }}
+                        >
+                          TALK TO ASTROLOGER
+                        </a>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="index-horoscope.html">HOROSCOPE</a>
+                    <a
+                      href="index-horoscope.html"
+                      style={{ textDecoration: "none" }}
+                    >
+                      HOROSCOPE
+                    </a>
                   </li>
                   <li className="as_submenu_li">
-                    <a className="dropdown-toggle" href="#">
+                    <a
+                      className="dropdown-toggle"
+                      href="#"
+                      style={{ textDecoration: "none" }}
+                    >
                       KUNDLI
                     </a>
                     <ul className="submenu dropdown">
                       <li>
-                        <a href="index.html">FREE KUNDLI</a>
+                        <a href="index.html" style={{ textDecoration: "none" }}>
+                          FREE KUNDLI
+                        </a>
                       </li>
                       <li>
-                        <a href="index-horoscope.html">KUNDLI MATCHING</a>
+                        <a
+                          href="index-horoscope.html"
+                          style={{ textDecoration: "none" }}
+                        >
+                          KUNDLI MATCHING
+                        </a>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="index-horoscope.html">PANCHANG</a>
+                    <a
+                      href="index-horoscope.html"
+                      style={{ textDecoration: "none" }}
+                    >
+                      PANCHANG
+                    </a>
                   </li>
                   <li className="as_submenu_li">
-                    <a className="dropdown-toggle" href="services.html">
+                    <a
+                      className="dropdown-toggle"
+                      href="services.html"
+                      style={{ textDecoration: "none" }}
+                    >
                       OTHER SERVICES
                     </a>
                     <ul className="submenu dropdown">
                       <li>
-                        <a href="index-horoscope.html">ZODIAC SIGNS</a>
+                        <a
+                          href="index-horoscope.html"
+                          style={{ textDecoration: "none" }}
+                        >
+                          ZODIAC SIGNS
+                        </a>
                       </li>
                       <li>
-                        <a href="index-horoscope.html">PLANETS</a>
+                        <a
+                          href="index-horoscope.html"
+                          style={{ textDecoration: "none" }}
+                        >
+                          PLANETS
+                        </a>
                       </li>
                       <li>
-                        <a href="index-tarot.html">TAROT CARD</a>
+                        <a
+                          href="index-tarot.html"
+                          style={{ textDecoration: "none" }}
+                        >
+                          TAROT CARD
+                        </a>
                       </li>
                       <li>
-                        <a href="index-palmistry.html">PALMISTRY</a>
+                        <a
+                          href="index-palmistry.html"
+                          style={{ textDecoration: "none" }}
+                        >
+                          PALMISTRY
+                        </a>
                       </li>
                       <li>
-                        <a href="index-vastu.html">VASTU SHASTRA</a>
+                        <a
+                          href="index-vastu.html"
+                          style={{ textDecoration: "none" }}
+                        >
+                          VASTU SHASTRA
+                        </a>
                       </li>
                       <li>
-                        <a href="index-numerology.html">NUMEROLOGY</a>
+                        <a
+                          href="index-numerology.html"
+                          style={{ textDecoration: "none" }}
+                        >
+                          NUMEROLOGY
+                        </a>
                       </li>
                       <li>
-                        <a href="index-gemstone.html">REMEDIES</a>
+                        <a
+                          href="index-gemstone.html"
+                          style={{ textDecoration: "none" }}
+                        >
+                          REMEDIES
+                        </a>
                       </li>
                     </ul>
                   </li>
                   <li className="as_submenu_li">
-                    <a className="dropdown-toggle" href="#">
+                    <a
+                      className="dropdown-toggle"
+                      href="#"
+                      style={{ textDecoration: "none" }}
+                    >
                       2024 SPECIALS
                     </a>
                     <ul className="submenu dropdown">
                       <li>
-                        <a href="index-horoscope.html">2024 HOROSCOPE</a>
+                        <a
+                          href="index-horoscope.html"
+                          style={{ textDecoration: "none" }}
+                        >
+                          2024 HOROSCOPE
+                        </a>
                       </li>
                       <li>
-                        <a href="index-horoscope.html">2024 TRANSITS</a>
+                        <a
+                          href="index-horoscope.html"
+                          style={{ textDecoration: "none" }}
+                        >
+                          2024 TRANSITS
+                        </a>
                       </li>
                       <li>
-                        <a href="index-horoscope.html">2024 NAKSHATRA</a>
+                        <a
+                          href="index-horoscope.html"
+                          style={{ textDecoration: "none" }}
+                        >
+                          2024 NAKSHATRA
+                        </a>
                       </li>
                       <li>
-                        <a href="index-horoscope.html">2024 SHUBH MUHURATS</a>
+                        <a
+                          href="index-horoscope.html"
+                          style={{ textDecoration: "none" }}
+                        >
+                          2024 SHUBH MUHURATS
+                        </a>
                       </li>
                       <li>
-                        <a href="index-horoscope.html">2024 FESTIVALS</a>
+                        <a
+                          href="index-horoscope.html"
+                          style={{ textDecoration: "none" }}
+                        >
+                          2024 FESTIVALS
+                        </a>
                       </li>
                     </ul>
                   </li>

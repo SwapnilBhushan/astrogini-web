@@ -35,7 +35,11 @@ const Slider = () => {
               <li>Vastu</li>
               <li>Numerology</li>
             </ul>
-            <a href="appointment.html" class="ast_btn">
+            <a
+              href="appointment.html"
+              class="ast_btn"
+              style={{ textDecoration: "none" }}
+            >
               Consult Now
             </a>
           </div>

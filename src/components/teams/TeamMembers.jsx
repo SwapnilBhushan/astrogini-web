@@ -15,7 +15,7 @@ const TeamMembers = () => {
         <div className="row">
           <div className="col-lg-12 col-md-12 col-sm-12 col-12">
             <div className="ast_heading">
-              <h1>
+              <h1 style={{ fontWeight: "bold" }}>
                 Our <span>Experts</span>
               </h1>
               <p>
@@ -29,7 +29,12 @@ const TeamMembers = () => {
             <div className="ast_team_box">
               <img src={tm1} alt="team" />
               <h4>
-                <a href="team_single.html">Harsh Vardhan</a>
+                <a
+                  href="team_single.html"
+                  style={{ textDecoration: "none", fontWeight: "bold" }}
+                >
+                  Harsh Vardhan
+                </a>
               </h4>
               <p>Astrologer</p>
               <ul>
@@ -55,7 +60,12 @@ const TeamMembers = () => {
             <div className="ast_team_box">
               <img src={tm2} alt="team" />
               <h4>
-                <a href="team_single.html">Harsh Vardhan</a>
+                <a
+                  href="team_single.html"
+                  style={{ textDecoration: "none", fontWeight: "bold" }}
+                >
+                  Harsh Vardhan
+                </a>
               </h4>
               <p>Tarot Reader</p>
               <ul>
@@ -81,7 +91,12 @@ const TeamMembers = () => {
             <div className="ast_team_box">
               <img src={tm3} alt="team" />
               <h4>
-                <a href="team_single.html">Harsh Vardhan</a>
+                <a
+                  href="team_single.html"
+                  style={{ textDecoration: "none", fontWeight: "bold" }}
+                >
+                  Harsh Vardhan
+                </a>
               </h4>
               <p>Gemstonist</p>
               <ul>
@@ -107,7 +122,12 @@ const TeamMembers = () => {
             <div className="ast_team_box">
               <img src={tm4} alt="team" />
               <h4>
-                <a href="team_single.html">Harsh Vardhan</a>
+                <a
+                  href="team_single.html"
+                  style={{ textDecoration: "none", fontWeight: "bold" }}
+                >
+                  Harsh Vardhan
+                </a>
               </h4>
               <p>Astrologist</p>
               <ul>
