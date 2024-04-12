@@ -8,7 +8,7 @@ const Title = () => {
         <div className="row">
           <div className="col-lg-12 col-md-12 col-sm-12">
             <div className="page_title">
-              <h2>contact Us</h2>
+              <h2 style={{ fontWeight: "bold" }}>contact Us</h2>
             </div>
           </div>
           <div className="col-lg-12 col-md-12 col-sm-12">

@@ -12,6 +12,8 @@ import bg from "../../assets/images/slider/astrogini_slider1.jpg";
 import BottomHeader from "./BottomHeader";
 import product from "../../assets/images/content/Products/thumb1.jpg";
 import Slider from "./Slider";
+import LoginModel from "../Modal/LoginModel";
+import SignupModel from "../Modal/SignupModel";
 const Header = () => {
   const [showLogin, setShowLogin] = useState(false);
   const [showSignup, setShowSignup] = useState(false);
@@ -56,7 +58,7 @@ const Header = () => {
               <div className="ast_autho_wrapper">
                 <ul>
                   <li onClick={() => setShowLogin(true)}>
-                    <a className="popup-with-zoom-anim" href="#login-dialog">
+                    <a className="popup-with-zoom-anim">
                       <LoginIcon
                         style={{
                           fontSize: "19px",
@@ -64,7 +66,6 @@ const Header = () => {
                           color: "#fecc03",
                         }}
                       />
-
                       <strong> Log In</strong>
                     </a>
                   </li>
@@ -167,7 +168,12 @@ const Header = () => {
                   </li>
                 </ul>
 
-                <Modal show={showLogin}>
+                <LoginModel showLogin={showLogin} setShowLogin={setShowLogin} />
+                <SignupModel
+                  showSignup={showSignup}
+                  setShowSignup={setShowSignup}
+                />
+                {/* <Modal show={showLogin}>
                   <div id="login-dialog" className="zoom-anim-dialog mfp-hide">
                     <h1>Login Form</h1>
                     <form>
@@ -194,9 +200,9 @@ const Header = () => {
                       </p>
                     </form>
                   </div>
-                </Modal>
+                </Modal> */}
 
-                <Modal show={showSignup}>
+                {/* <Modal show={showSignup}>
                   <div
                     id="signup-dialog"
                     classNameName="zoom-anim-dialog mfp-hide"
@@ -219,7 +225,7 @@ const Header = () => {
                       </p>
                     </form>
                   </div>
-                </Modal>
+                </Modal> */}
               </div>
             </div>
           </div>

@@ -4249,6 +4249,7 @@ button:focus {
 }
 .ast_top_header {
   padding: 0;
+  height: 50px;
 }
 .ast_top_header .ast_contact_details {
   padding: 15px 0;

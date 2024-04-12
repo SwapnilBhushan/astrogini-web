@@ -8,7 +8,7 @@ const FormSection = () => {
         <div className="row">
           <div className="col-lg-12 col-md-12 col-sm-12 col-12">
             <div className="ast_heading">
-              <h1>
+              <h1 style={{ fontWeight: "bold" }}>
                 find & message <span>here</span>
               </h1>
               <p>

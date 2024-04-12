@@ -15,7 +15,7 @@ const ContactDetail = () => {
         <div className="row">
           <div className="col-lg-12 col-md-12 col-sm-12 col-12">
             <div className="ast_heading">
-              <h1>
+              <h1 style={{ fontWeight: "bold" }}>
                 get in <span>touch</span>
               </h1>
               <p>
@@ -34,7 +34,7 @@ const ContactDetail = () => {
                   className="fa-icon"
                 />
               </span>
-              <h4>phone</h4>
+              <h4 style={{ fontWeight: "bold" }}>phone</h4>
               <p>
                 <a href="tel:(+91)9554445866">(+91) 955 444 5866</a>
                 <br />
@@ -51,7 +51,7 @@ const ContactDetail = () => {
                   className="fa-icon"
                 />
               </span>
-              <h4>email</h4>
+              <h4 style={{ fontWeight: "bold" }}>email</h4>
               <p>
                 <a href="mailto:support@astrogini.net">support@astrogini.net</a>
                 <br />
@@ -68,7 +68,7 @@ const ContactDetail = () => {
                   aria-hidden={true}
                 />
               </span>
-              <h4>address</h4>
+              <h4 style={{ fontWeight: "bold" }}>address</h4>
               <p>Astrogini Services Pvt. Ltd. Lucknow, UP, India</p>
             </div>
           </div>
