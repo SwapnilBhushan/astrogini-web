@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./header.css";
 import Modal from "react-bootstrap/Modal";
 import AddIcCallIcon from "@mui/icons-material/AddIcCall";
@@ -21,7 +21,7 @@ const Header = () => {
   return (
     <>
       {/* top header */}
-      <div className="ast_top_header">
+      <div className={`ast_top_header`}>
         <div className="container">
           <div className="row">
             <div className="col-lg-12 col-md-12 col-sm-12 col-12">

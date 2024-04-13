@@ -177,6 +177,7 @@ button:focus {
   background-color: #ffffff;
   padding: 15px 0px;
 }
+
 .ast_autho_wrapper {
   float: right;
   width: auto;
@@ -349,14 +350,23 @@ button:focus {
 .ast_header_bottom {
   float: left;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0); /* Transparent background */
   position: fixed;
-  margin-top: 51px;
   z-index: 10;
-  /* background-image: url("./assets/images/slider/astrogini_slider1.jpg");
-  height: 850px;
-  background-size: cover; */
 }
+
+/* Sticky header styles */
+/* .ast_header_bottom.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  opacity: 0.4;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin-top: 36px;
+  padding: 0px 50px;
+} */
+
 .ast_header_bottom.style_2 {
   background-color: rgba(0, 0, 0, 0);
   margin-top: 21px;

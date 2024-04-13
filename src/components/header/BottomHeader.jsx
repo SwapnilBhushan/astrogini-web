@@ -1,10 +1,26 @@
-import React from "react";
-import bg from "../../assets/images/slider/astrogini_slider1.jpg";
+import React, { useState, useEffect } from "react";
 //import "./bottomHeader.css";
 import logo from "../../assets/images/header/astrogini_logo.png";
 const BottomHeader = () => {
+  const [isSticky, setIsSticky] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 400) {
+        setIsSticky(true);
+      } else {
+        setIsSticky(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
-    <div className="ast_header_bottom">
+    <div className={`ast_header_bottom ${isSticky ? "sticky" : ""}`}>
       <div className="container">
         <div className="row">
           <div className="col-lg-3 col-md-3 col-sm-3 col-10">

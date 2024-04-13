@@ -26,7 +26,7 @@ const Testimonial = () => {
 
           <div className="col-lg-10 col-md-12 col-sm-12 col-12 offset-lg-1 offset-md-0 offset-sm-0 offset-0">
             <div className="ast_testimonials_slider">
-              <Carousel data-bs-theme="dark" controls={false}>
+              <Carousel data-bs-theme="dark" controls={false} interval={2500}>
                 <Carousel.Item>
                   <div className="item">
                     <div className="ast_testimonials_slider_box">

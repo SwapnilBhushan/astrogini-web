@@ -1,7 +1,23 @@
 import React from "react";
 import Iframe from "react-iframe";
+import { useForm } from "react-hook-form";
+import axios from "axios";
 
 const FormSection = () => {
+  const { register, handleSubmit } = useForm();
+  const SERVICE_URL = import.meta.env.VITE_BASE_URL;
+
+  const onSubmit = async (data, e) => {
+    try {
+      const response = await axios.post(`${SERVICE_URL}/enquiry`, data);
+      if (response.status === 201) {
+        window.alert("Data Submitted Successfully");
+        e.target.reset();
+      }
+    } catch (error) {
+      console.log(error);
+    }
+  };
   return (
     <div className="ast_mapnform_wrapper ast_toppadder70">
       <div className="container">
@@ -22,21 +38,29 @@ const FormSection = () => {
       </div>
       <div className="ast_contact_map">
         <div className="ast_contact_form">
-          <form>
+          <form onSubmit={handleSubmit(onSubmit)}>
             <div className="row">
               <div className="col-lg-6 col-md-6 col-sm-12 col-12">
                 <label>first name</label>
-                <input type="text" name="first_name" className="require" />
+                <input
+                  type="text"
+                  {...register("first_name")}
+                  className="require"
+                />
               </div>
               <div className="col-lg-6 col-md-6 col-sm-12 col-12">
                 <label>last name</label>
-                <input type="text" name="last_name" className="require" />
+                <input
+                  type="text"
+                  {...register("last_name")}
+                  className="require"
+                />
               </div>
               <div className="col-lg-6 col-md-6 col-sm-12 col-12">
                 <label>email</label>
                 <input
                   type="text"
-                  name="email"
+                  {...register("email")}
                   className="require"
                   data-valid="email"
                   data-error="Email should be valid."
@@ -44,13 +68,17 @@ const FormSection = () => {
               </div>
               <div className="col-lg-6 col-md-6 col-sm-12 col-12">
                 <label>subject</label>
-                <input type="text" name="subject" className="require" />
+                <input
+                  type="text"
+                  {...register("subject")}
+                  className="require"
+                />
               </div>
               <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                 <label>message</label>
                 <textarea
                   rows="5"
-                  name="message"
+                  {...register("message")}
                   className="require"
                 ></textarea>
               </div>
@@ -58,7 +86,7 @@ const FormSection = () => {
               <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                 <button
                   className="ast_btn pull-right submitForm"
-                  type="button"
+                  type="submit"
                   form-type="contact"
                 >
                   send

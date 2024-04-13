@@ -29,7 +29,9 @@ const LoginModel = ({ showLogin, setShowLogin }) => {
                 />
                 <span className="checkmark"></span>
               </label>
-              <a href="#">Forgot password ?</a>
+              <a href="#" style={{ textDecoration: "none", color: "#000" }}>
+                Forgot password ?
+              </a>
             </div>
             <button type="submit" className="ast_btn">
               Login

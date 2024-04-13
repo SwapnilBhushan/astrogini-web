@@ -1,6 +1,5 @@
 import React from "react";
 import chat from "../../assets/images/content/astrogini_chat_with_astrologer.png";
-import ww1 from "../../assets/images/content/ww_1.png";
 import ww2 from "../../assets/images/content/ww_2.png";
 import ww3 from "../../assets/images/content/ww_3.png";
 import ww4 from "../../assets/images/content/ww_4.png";
@@ -33,9 +32,9 @@ const Feature = () => {
             </div>
             <div className="col-lg-3 col-md-6 col-sm-12 col-12">
               <div className="nv_whywe_info_box">
-                <div className="nv_whywe_info_box_pic">
+                <div className="nv_whywe_info_box_pic" style={{}}>
                   <span className="nv_icon">
-                    <img src={ww2} alt="" />
+                    <img src={ww2} alt="bb" />
                   </span>
                 </div>
                 <div className="nv_whywe_info_box_info">
